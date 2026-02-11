@@ -31,7 +31,24 @@ This project demonstrates client-server architecture, real-time position synchro
     client.py
     network.py
     Requirements.txt
-    README.md
-    License
 
-## 
+
+## ⚙️ How to Run (Same WiFi / LAN)
+
+### On Server PC
+
+- Open server.py
+- Set: server="0.0.0.0"
+- Run server.py
+
+### Find Server IP
+
+- On Server PC in CMD run ipconfig and copy the IPv4 Address 
+
+### On Client PC
+
+- Open network.py and past that Server's IPv4 Address to send connection request to Server PC.
+- Run client.py
+
+
+***Author - Pravir Nihar Maity***
