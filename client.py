@@ -68,8 +68,8 @@ def main():
 
     startPos = readPose(n.getPos())
 
-    p = Player(startPos[0], startPos[1], 50, 50, (255, 0, 0))
-    p2 = Player(0, 0, 50, 50, (0, 0, 255))
+    p = Player(startPos[0], startPos[1], 50, 50, (0, 0, 255))
+    p2 = Player(0, 0, 50, 50, (0, 255, 0))
 
     while run:
         clock.tick(60)

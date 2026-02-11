@@ -14,7 +14,7 @@ except socket.error as e:
 s.listen(2)
 print("Server Started! Waiting for connection...")
 
-pos = [(0, 0), (100, 100)]
+pos = [(0, 0), (100, 100)]    
 
 
 def readPose(pos_str):
