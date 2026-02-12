@@ -33,6 +33,9 @@ class Player:
             self.y -= self.vel
         if keys[pygame.K_DOWN]:
             self.y += self.vel
+        
+        self.x = max(0, min(self.x, width - self.width))
+        self.y = max(0, min(self.y, height - self.height))
 
         self.update()
 

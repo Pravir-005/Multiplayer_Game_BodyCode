@@ -4,7 +4,7 @@ import socket
 class Network:
     def __init__(self):
         self.client = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-        self.server = ""    #Paste Server PC IPv4 Address (use same wifi for connection!) 
+        self.server = "172.16.171.15"    #Paste Server PC IPv4 Address (use same wifi for connection!) 
         self.port = 5555
         self.addr = (self.server, self.port)
         self.pos = self.connect()
